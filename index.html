@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodcourt</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="joes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="row">
+                <div class="col brandname">
+                    <h1>Joe's Kitchen</h1>
+                </div>
+                <div class="col">
+                    <div class="cartIcon ">
+                        <div class="cart-items">0</div>
+                        <i class="bi bi-cart4"></i>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+<!-- header end -->
+<!-- img container  -->
+<div class="container-fluid bg-primary gx-0">
+    <div class="headerimg">
+        <div class="textover">
+            <h2 >Joe's Kitchen</h2>
+            <h6> have a break eat fresh...!</h6>
+        </div>
+    
+    </div>
+</div>
+<!-- img container end -->
+<!-- navbar start -->
+<div class="container-fluid navbar ">
+    <!-- <div class="container"> -->
+            <ul>
+                <li><a href="#" class="menu" id="Latest">Latest</a></li>
+                <li><a href="#" class="menu" id="Favourite">Favourite</a></li>
+                <li><a href="#" class="menu" id="Veg">Veg</a></li>
+                <li><a href="#" class="menu" id="Non-Veg">Non-Veg</a></li>
+                <li><a href="#" class="menu" id="Juice">Juice</a></li>
+                <li><a href="#" class="menu" id="Cake">Cake</a></li>
+                <li><a href="#" class="menu" id="Sweet">Sweet</a></li>
+                <li><a href="#" class="menu" id="IceCream">IceCream</a></li>
+                <li><a href="#" class="menu" id="Pizza">Pizza</a></li>
+                <li><a href="#" class="menu" id="Soup">Soup</a></li>
+            </ul>
+        <!-- </div> -->
+</div>
+       <!-- Dynamic content -->
+       <div class="container-fluid  product">
+        <div class="food-title ">Latest Products</div>
+        <div class="container product-container ">
+            <div id="product-container">
+                <!-- <div class="col-4">
+                    <div class="card box">
+                        
+                        <img src="https://www.app.tutorjoes.in/img/food/91.jpg" class="card-img-top" alt="" style="height: 100px;">
+                        <div class="card-body text-center p-1" >
+                            <h4 class=" m-0" style="font-size: smaller;">Food Name</h4>
+                            <h4 class=" m-0" style="font-size: smaller;">Shop Name</h4>
+                        </div>
+                        <div class="card-footer  d-flex justify-content-between p-0 " style="font-size: small;background-color: navy;">
+                            <span style="color: aliceblue;">Food Type </span>
+                            <span style="color: orange;">Rs.234</span>
+                        </div>
+                        <div class="card-img-overlay">
+                            <div class="shopicon">
+                            <button class="  btn-sm addbtn" style="border: none;" ><i class="bi bi-cart4 "></i>Add To Cart</button>
+                        </div>
+                            <a href="#" class=" heart" ><i class="bi bi-heart-fill"></i></a>
+                        </div>
+                        
+                        
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="cart-overlay cart-overlay-close">
+            <div class="cart">
+                <span class="bi bi-x btn-close-cart"></span>
+                <h2>Your Cart Products</h2>
+                <!-- Cart Item Start -->
+                <div class="cart-content">
+                    <!-- Dynamic cart item -->
+                    <div class="cart-item">
+                        <img src="" alt="">
+                        <div>
+                            <h4>Product Name</h4>
+                            <h5>Rs 985.00</h5>
+                            <span class="remove-item">Remove</span>
+                        </div>
+                        <div>
+                            <i class="bi bi-plus"></i>
+                            <p class="item-amount"></p>
+                            <i class="bi bi-dash"></i>
+                        </div>
+                    </div>
+                    <!-- Dynamic cart item Enfd -->
+
+                </div>
+                <!-- Cart Item End -->
+                <div class="cart-footer">
+                    <h3>Total Amount Rs:<span class="cart-total">0</span></h3>
+                    <button class="btn btn-clear-cart">clear cart</button>
+                </div>
+            </div>
+        </div>
+       </div>
+<!-- navbar end -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./joes.js"></script>
+</body>
+</html>
